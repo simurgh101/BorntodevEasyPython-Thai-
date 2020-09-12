@@ -1,0 +1,10 @@
+n = int(input())
+if n < 60:
+  print("F")
+elif n in range (60,65): print("D")
+elif n in range (65,70): print("D+")
+elif n in range (70,75): print("C")
+elif n in range (75,80): print("C+")
+elif n in range (80,85): print("B")
+elif n in range (85,90): print("B+")
+else: print("A")

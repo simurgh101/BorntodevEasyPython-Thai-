@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+ma = max(a,b)
+mi = min(a,b)
+print("MAX : " + str(ma),"MIN : " + str(mi),sep='\n')

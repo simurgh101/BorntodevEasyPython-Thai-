@@ -1,0 +1,5 @@
+s = int(input())
+t = int(input())
+speed = int(s/t)
+print(str(speed) + " km/h")
+#print(str(s//t) + " km/h")
